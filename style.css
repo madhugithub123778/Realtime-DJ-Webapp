@@ -1,0 +1,95 @@
+body{
+background-size: cover;
+background-position: center;
+}
+
+#heading{
+width: 100%; background-color:deepskyblue;margin-top: 0px;padding: 10px;font-family: fantasy;font-size: 30px;text-shadow: 3px 3px 6px navy;
+box-shadow: 10px 10px 20px yellow;
+
+}
+
+#note{
+font-size: 18px;font-weight: bold;color: purple; font-family: 'Gill Sans';text-shadow: none;
+
+}
+
+#speaker_1{
+width: 200px;height: 200px;border-radius: 200px;
+
+
+}
+
+#speaker_2{
+    width: 200px;height: 200px;border-radius: 200px;
+    
+    
+    }
+
+#speed{
+float: left;font-family: 'Cochin';
+
+
+}
+
+#speed h3{
+font-size: 20px;margin-left: -5px;
+
+}
+
+#volume{
+float:right; font-family: 'Cochin';
+
+
+}
+#volume h3{
+    font-size: 20px;
+    
+    }
+
+    #play{
+width: 220px; height: 50px;border-radius: 20px;font-family: 'Gill Sans';font-size: 25px;background-color:green;border: 3px solid white;color: white;
+transition-duration: 0.5s;
+
+    }
+
+    #play:hover{
+background-color: white;color: green; border-color: green;
+
+
+    }
+
+    canvas{
+border: 6px inset yellow;
+animation-name: example;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+margin-top: 160px;
+animation-duration: 1.5s;
+
+    }
+
+    @keyframes example{
+from{box-shadow: 5px 5px 30px pink;}
+to {box-shadow: 3px 3px 30px greenyellow;}
+
+    }
+
+    #speed_value, #vol_value{
+background-color: yellow;font-weight: bold;color: red;
+
+
+    }
+
+    #stop{
+        width: 220px; height: 50px;border-radius: 20px;font-family: 'Gill Sans';font-size: 25px;background-color:red;border: 3px solid white;color: white;
+        transition-duration: 0.5s;margin-left: 10px;
+
+
+    }
+
+    #stop:hover{
+        background-color: white;color: red; border-color: red;
+        
+        
+            }
